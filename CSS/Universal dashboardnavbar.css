@@ -1,0 +1,108 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.topnav{    
+    overflow: hidden;
+    background-color: black;
+}
+.topnav a{
+    display: block;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover{
+    color: #b8860b;
+    text-decoration: none;
+}
+.name a{
+    color: white;
+    font-size: 3rem;
+    text-decoration: none;
+    font-family: 'Damion', cursive;
+}
+.name a:hover{
+    text-decoration: none;
+    color: #b8860b;
+}
+.dropdown{
+    display: none;
+}
+footer{
+    background-color: black;
+}
+.footer{
+    color: #f2f2f2;
+    padding: 2rem;
+    min-height: 5rem;
+    display: block;
+    align-items: center;
+    justify-content:space-between;
+    text-align: center;
+}
+@media screen and (max-width: 768px){
+    .icon{
+        font-size: 2.5rem;
+        color: white;
+    }
+    .icon:hover{
+        font-size: 2.5rem;
+        color: #b8860b;
+    }
+    .topnav{
+        display: none;
+    }
+    .dropdown{
+        display: block;
+        right: 0;
+        float: right;
+        right: 0;
+        /* border: 1px solid white; */
+        /* position: fixed; */
+    }
+    .dropdown-menu-right{
+        position: absolute;
+        background-color: black;
+        width: max-content;
+        margin-right: 0rem;
+        z-index: 999;
+    }
+    .dropdown-menu-right{
+        /* border: 1px solid white; */
+        list-style-type: none;
+        
+    }
+    .dropdown-menu-right li{
+        /* border: 1px solid white; */
+        list-style: none;
+        padding: 2rem;
+    }
+    .dropdown-menu-right li a{
+        font-size: 2rem;
+        text-decoration: none;
+        color: white;
+    }
+    .dropdown-menu-right li a:hover{
+        color: #b8860b;
+        text-decoration: none;
+    }
+    button{
+        background-color: black;
+        border: none;
+    }
+    button i{
+         color: white;
+         font-size: 2.5rem;
+    }
+    button i:hover{
+        color: #b8860b;
+    }
+}
