@@ -19,7 +19,7 @@ body{
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 .grid1{
-  background: url(images/cake1.jpg) no-repeat center; 
+  background: url(Images/cake1.jpg) no-repeat center; 
   background-size: cover;
   /* background-size: 100%; */
 }
@@ -42,23 +42,23 @@ body{
   opacity: 0.7;
 }
 .grid2{
-  background: url(images/drink1.jpeg) no-repeat center;
+  background: url(Images/drink1.jpeg) no-repeat center;
   background-size: cover;
 }
 .grid3{
-  background: url(images/spicy-VL.jpg) no-repeat center;
+  background: url(Images/spicy-VL.jpg) no-repeat center;
   background-size: cover;
 }
 .grid4{
-  background: url(images/southindian-VL.jpg) no-repeat center;
+  background: url(Images/southindian-VL.jpg) no-repeat center;
   background-size: cover;
 }
 .grid5{
-  background: url(images/sweet-vl.jpg) no-repeat center;
+  background: url(Images/sweet-vl.jpg) no-repeat center;
   background-size: cover;
 }
 .grid6{
-  background: url(images/rice-vl.jpg) no-repeat center;
+  background: url(Images/rice-vl.jpg) no-repeat center;
   background-size: cover;
 }
 @media screen and (max-width:768px) {
@@ -75,33 +75,33 @@ body{
   }
   .grid1{
     margin: 2rem;
-    background: url(images/cake1.jpg) no-repeat center; 
+    background: url(Images/cake1.jpg) no-repeat center; 
     background-size: cover;
     /* background-size: 100%; */
   }
   .grid2{
     margin: 2rem;
-    background: url(images/drink.jpg) no-repeat center;
+    background: url(Images/drink.jpg) no-repeat center;
     background-size: cover;
   }
   .grid3{
     margin: 2rem;
-    background: url(images/spicy.jpg) no-repeat center;
+    background: url(Images/spicy.jpg) no-repeat center;
     background-size: cover;
   }
   .grid4{
     margin: 2rem;
-    background: url(images/southindian.jpg) no-repeat center;
+    background: url(Images/southindian.jpg) no-repeat center;
     background-size: cover;
   }
   .grid5{
     margin: 2rem;
-    background: url(images/sweet-vl.jpg) no-repeat center;
+    background: url(Images/sweet-vl.jpg) no-repeat center;
     background-size: cover;
   }
   .grid6{
     margin: 2rem;
-    background: url(images/rice.jpg) no-repeat center;
+    background: url(Images/rice.jpg) no-repeat center;
     background-size: cover;
   }
 }
