@@ -1,0 +1,13 @@
+
+main{
+  background-color: #b8860b;
+  border: 0.1px solid #b8860b;
+}
+main .heading{
+  padding-top: 2rem; 
+  padding-bottom: 1rem; 
+  text-align: center;
+}
+.container{
+  margin-bottom: 2rem;
+}

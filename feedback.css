@@ -1,0 +1,44 @@
+html, body{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    border: 0.1px solid #b8860b;;
+    background-color: #b8860b;
+}
+main .heading{
+    text-align: center;
+    padding-top: 3rem;
+}
+.container{
+    /* border: 1px solid white; */
+}
+.container h4{
+    text-align: center;
+    padding-top: 3rem;
+}
+.form{
+    padding: 5rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    text-align:left;
+    /* border: 1px solid white; */
+}
+.form input{
+    text-align: start;
+    background-color: #b8860b;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+@media screen and (max-width: 768px){
+    .form{
+        padding: 5rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        text-align:left;
+    }
+}

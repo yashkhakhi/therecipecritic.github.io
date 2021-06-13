@@ -1,0 +1,95 @@
+main{
+    background-color: #b8860b;
+    border: 0.1px solid #b8860b;
+}
+main .heading{
+    padding-top: 2rem; 
+    padding-bottom: 1rem; 
+    text-align: center;
+}
+.container{
+    /* border: 1px solid white; */
+    padding: 2rem;
+}
+.box1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#grid1{
+    border: 0.1px solid white;
+    background-color: white;
+    color: black;
+}
+#grid2{
+    border: 0.1px solid black;
+    background-color: black;
+    color: white;
+}
+.grid_heading{
+    padding-top: 1rem;
+    text-align: center;
+}
+#grid1 .grid_heading{
+    padding-top: 4rem;
+}
+.signin_form{
+    margin-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.signin_form .row{
+    margin-bottom: 2rem;
+}
+.signin_form .row .col-md-4 label{
+    text-align:right;
+    width: 100%;
+}
+.signin_form .row .col-md-8 input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.signin_form .row a{
+    margin-left: 40%;
+    width: max-content;
+}
+.signup_form{
+    margin-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.signup_form .row{
+    margin-bottom: 2rem;
+}
+.signup_form .row .col-md-4 label{
+    text-align:right;
+    width: 100%;
+}
+.signup_form .row .col-md-8 input{
+    width: 100%;
+    border: none;
+    color: white;
+    background-color: black;
+    border-bottom: 1px solid white;
+}
+.signup_form .row a{
+    text-align: center;
+    margin-left: 40%;
+    width: max-content;
+}
+
+@media screen and (max-width: 768px){
+    .box1{
+        /* border: 1px solid white; */
+        display: block;
+        padding: 2rem;
+    }
+    .signin_form .row .col-md-4 label{
+        text-align:left;
+        width: 100%;
+    }
+    .signup_form .row .col-md-4 label{
+        text-align:left;
+        width: 100%;
+    }
+}
